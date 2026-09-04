@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tagline">Chaque capture d\'écran part automatiquement dans le presse-papier.</string>
+    <string name="switch_enabled">Copie automatique</string>
+    <string name="status_on">Actif — prends une capture, elle sera copiée.</string>
+    <string name="status_off">Inactif</string>
+    <string name="status_missing_perm">Inactif — autorisation manquante</string>
+
+    <string name="section_permissions">Autorisations</string>
+    <string name="perm_media_title">Accès aux captures d\'écran</string>
+    <string name="perm_media_ok">Accordé — dernière capture vue : %1$s</string>
+    <string name="perm_media_none">Accordé, mais aucune capture visible</string>
+    <string name="perm_media_partial">Accès partiel : choisis « Autoriser tout » dans les paramètres, sinon les nouvelles captures resteront invisibles.</string>
+    <string name="perm_media_missing">Non accordé</string>
+    <string name="perm_notif_title">Notifications</string>
+    <string name="perm_notif_ok">Accordé</string>
+    <string name="perm_notif_missing">Non accordé — nécessaire pour que la surveillance reste en vie</string>
+    <string name="perm_battery_title">Batterie sans restriction</string>
+    <string name="perm_battery_ok">Accordé — la surveillance ne sera pas mise en veille</string>
+    <string name="perm_battery_missing">Non accordé — Android risque d\'arrêter la surveillance</string>
+    <string name="action_grant">Autoriser</string>
+    <string name="action_settings">Paramètres</string>
+
+    <string name="section_options">Options</string>
+    <string name="mode_title">Ce qui est placé dans le presse-papier</string>
+    <string name="mode_mediastore">Le fichier d\'origine (recommandé)</string>
+    <string name="mode_local">Une copie interne (si le collage échoue)</string>
+    <string name="opt_toast">Message de confirmation</string>
+    <string name="opt_vibrate">Vibration courte</string>
+
+    <string name="section_test">Vérification</string>
+    <string name="action_test">Copier la dernière capture</string>
+    <string name="action_check">Lire le presse-papier</string>
+    <string name="clip_empty">Presse-papier vide</string>
+    <string name="clip_content">Contenu : %1$s\n%2$s</string>
+    <string name="clip_unreadable">Presse-papier illisible</string>
+    <string name="no_screenshot">Aucune capture trouvée</string>
+
+    <string name="section_log">Journal</string>
+    <string name="log_empty">Rien pour l\'instant.</string>
+
+    <string name="toast_copied">Capture copiée</string>
+    <string name="toast_failed">Copie impossible</string>
+
+    <string name="channel_name">Surveillance</string>
+    <string name="channel_desc">Notification discrète qui maintient la surveillance des captures.</string>
+    <string name="notif_title">Klipshot surveille les captures</string>
+    <string name="notif_idle">En attente d\'une capture d\'écran</string>
+    <string name="notif_last">Copiée : %1$s</string>
+    <string name="notif_stop">Arrêter</string>
+</resources>

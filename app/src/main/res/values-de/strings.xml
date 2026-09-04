@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tagline">Jeder Screenshot landet direkt in der Zwischenablage.</string>
+    <string name="switch_enabled">Automatisch kopieren</string>
+    <string name="status_on">Aktiv – mach einen Screenshot, er wird kopiert.</string>
+    <string name="status_off">Inaktiv</string>
+    <string name="status_missing_perm">Inaktiv – Berechtigung fehlt</string>
+
+    <string name="section_permissions">Berechtigungen</string>
+    <string name="perm_media_title">Zugriff auf Screenshots</string>
+    <string name="perm_media_ok">Erteilt – zuletzt erkannter Screenshot: %1$s</string>
+    <string name="perm_media_none">Erteilt, aber kein Screenshot sichtbar</string>
+    <string name="perm_media_partial">Teilzugriff: Wähle in den Einstellungen „Alle zulassen“, sonst bleiben neue Screenshots unsichtbar.</string>
+    <string name="perm_media_missing">Nicht erteilt</string>
+    <string name="perm_notif_title">Benachrichtigungen</string>
+    <string name="perm_notif_ok">Erteilt</string>
+    <string name="perm_notif_missing">Nicht erteilt – nötig, damit die Überwachung weiterläuft</string>
+    <string name="perm_battery_title">Uneingeschränkter Akkuzugriff</string>
+    <string name="perm_battery_ok">Erteilt – die Überwachung wird nicht schlafen gelegt</string>
+    <string name="perm_battery_missing">Nicht erteilt – Android könnte die Überwachung beenden</string>
+    <string name="action_grant">Erlauben</string>
+    <string name="action_settings">Einstellungen</string>
+
+    <string name="section_options">Optionen</string>
+    <string name="mode_title">Was in die Zwischenablage kommt</string>
+    <string name="mode_mediastore">Die Originaldatei (empfohlen)</string>
+    <string name="mode_local">Eine interne Kopie (falls das Einfügen scheitert)</string>
+    <string name="opt_toast">Bestätigungsmeldung</string>
+    <string name="opt_vibrate">Kurze Vibration</string>
+
+    <string name="section_test">Überprüfung</string>
+    <string name="action_test">Letzten Screenshot kopieren</string>
+    <string name="action_check">Zwischenablage lesen</string>
+    <string name="clip_empty">Zwischenablage ist leer</string>
+    <string name="clip_content">Inhalt: %1$s\n%2$s</string>
+    <string name="clip_unreadable">Zwischenablage nicht lesbar</string>
+    <string name="no_screenshot">Kein Screenshot gefunden</string>
+
+    <string name="section_log">Protokoll</string>
+    <string name="log_empty">Noch nichts.</string>
+
+    <string name="toast_copied">Screenshot kopiert</string>
+    <string name="toast_failed">Kopieren fehlgeschlagen</string>
+
+    <string name="channel_name">Überwachung</string>
+    <string name="channel_desc">Unauffällige Benachrichtigung, die die Screenshot-Überwachung am Laufen hält.</string>
+    <string name="notif_title">Klipshot überwacht Screenshots</string>
+    <string name="notif_idle">Warten auf einen Screenshot</string>
+    <string name="notif_last">Kopiert: %1$s</string>
+    <string name="notif_stop">Beenden</string>
+</resources>

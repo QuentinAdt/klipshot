@@ -1,0 +1,23 @@
+# Build
+/build
+/app/build
+.gradle/
+.cxx/
+.externalNativeBuild/
+
+# Configuration locale a la machine (chemin du SDK)
+local.properties
+
+# IDE
+.idea/
+*.iml
+
+# Artefacts et signatures
+*.apk
+*.aab
+*.keystore
+*.jks
+keystore.properties
+
+# macOS
+.DS_Store

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tagline">Ogni screenshot finisce direttamente negli appunti.</string>
+    <string name="switch_enabled">Copia automatica</string>
+    <string name="status_on">Attivo: scatta uno screenshot e verrà copiato.</string>
+    <string name="status_off">Non attivo</string>
+    <string name="status_missing_perm">Non attivo: manca un\'autorizzazione</string>
+
+    <string name="section_permissions">Autorizzazioni</string>
+    <string name="perm_media_title">Accesso agli screenshot</string>
+    <string name="perm_media_ok">Concesso: ultimo screenshot rilevato: %1$s</string>
+    <string name="perm_media_none">Concesso, ma nessuno screenshot visibile</string>
+    <string name="perm_media_partial">Accesso parziale: scegli «Consenti tutto» nelle impostazioni, altrimenti i nuovi screenshot resteranno invisibili.</string>
+    <string name="perm_media_missing">Non concesso</string>
+    <string name="perm_notif_title">Notifiche</string>
+    <string name="perm_notif_ok">Concesso</string>
+    <string name="perm_notif_missing">Non concesso: serve a mantenere attivo il monitoraggio</string>
+    <string name="perm_battery_title">Batteria senza restrizioni</string>
+    <string name="perm_battery_ok">Concesso: il monitoraggio non verrà sospeso</string>
+    <string name="perm_battery_missing">Non concesso: Android potrebbe interrompere il monitoraggio</string>
+    <string name="action_grant">Consenti</string>
+    <string name="action_settings">Impostazioni</string>
+
+    <string name="section_options">Opzioni</string>
+    <string name="mode_title">Cosa finisce negli appunti</string>
+    <string name="mode_mediastore">Il file originale (consigliato)</string>
+    <string name="mode_local">Una copia interna (se incollare non funziona)</string>
+    <string name="opt_toast">Messaggio di conferma</string>
+    <string name="opt_vibrate">Vibrazione breve</string>
+
+    <string name="section_test">Verifica</string>
+    <string name="action_test">Copia l\'ultimo screenshot</string>
+    <string name="action_check">Leggi gli appunti</string>
+    <string name="clip_empty">Appunti vuoti</string>
+    <string name="clip_content">Contenuto: %1$s\n%2$s</string>
+    <string name="clip_unreadable">Impossibile leggere gli appunti</string>
+    <string name="no_screenshot">Nessuno screenshot trovato</string>
+
+    <string name="section_log">Registro</string>
+    <string name="log_empty">Ancora niente.</string>
+
+    <string name="toast_copied">Screenshot copiato</string>
+    <string name="toast_failed">Copia non riuscita</string>
+
+    <string name="channel_name">Monitoraggio</string>
+    <string name="channel_desc">Notifica discreta che mantiene attivo il monitoraggio degli screenshot.</string>
+    <string name="notif_title">Klipshot monitora gli screenshot</string>
+    <string name="notif_idle">In attesa di uno screenshot</string>
+    <string name="notif_last">Copiato: %1$s</string>
+    <string name="notif_stop">Interrompi</string>
+</resources>

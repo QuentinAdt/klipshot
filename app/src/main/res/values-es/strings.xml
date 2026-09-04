@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tagline">Cada captura de pantalla va directa al portapapeles.</string>
+    <string name="switch_enabled">Copia automática</string>
+    <string name="status_on">Activo: haz una captura y se copiará.</string>
+    <string name="status_off">Inactivo</string>
+    <string name="status_missing_perm">Inactivo: falta un permiso</string>
+
+    <string name="section_permissions">Permisos</string>
+    <string name="perm_media_title">Acceso a las capturas</string>
+    <string name="perm_media_ok">Concedido: última captura vista: %1$s</string>
+    <string name="perm_media_none">Concedido, pero no se ve ninguna captura</string>
+    <string name="perm_media_partial">Acceso parcial: elige «Permitir todo» en los ajustes; de lo contrario, las capturas nuevas seguirán siendo invisibles.</string>
+    <string name="perm_media_missing">No concedido</string>
+    <string name="perm_notif_title">Notificaciones</string>
+    <string name="perm_notif_ok">Concedido</string>
+    <string name="perm_notif_missing">No concedido: necesario para mantener activa la vigilancia</string>
+    <string name="perm_battery_title">Batería sin restricciones</string>
+    <string name="perm_battery_ok">Concedido: la vigilancia no se suspenderá</string>
+    <string name="perm_battery_missing">No concedido: Android podría detener la vigilancia</string>
+    <string name="action_grant">Conceder</string>
+    <string name="action_settings">Ajustes</string>
+
+    <string name="section_options">Opciones</string>
+    <string name="mode_title">Qué se copia al portapapeles</string>
+    <string name="mode_mediastore">El archivo original (recomendado)</string>
+    <string name="mode_local">Una copia interna (si falla el pegado)</string>
+    <string name="opt_toast">Mensaje de confirmación</string>
+    <string name="opt_vibrate">Vibración breve</string>
+
+    <string name="section_test">Comprobación</string>
+    <string name="action_test">Copiar la última captura</string>
+    <string name="action_check">Leer el portapapeles</string>
+    <string name="clip_empty">Portapapeles vacío</string>
+    <string name="clip_content">Contenido: %1$s\n%2$s</string>
+    <string name="clip_unreadable">No se puede leer el portapapeles</string>
+    <string name="no_screenshot">No se encontró ninguna captura</string>
+
+    <string name="section_log">Registro</string>
+    <string name="log_empty">Nada por ahora.</string>
+
+    <string name="toast_copied">Captura copiada</string>
+    <string name="toast_failed">No se pudo copiar</string>
+
+    <string name="channel_name">Vigilancia</string>
+    <string name="channel_desc">Notificación discreta que mantiene activa la vigilancia de capturas.</string>
+    <string name="notif_title">Klipshot vigila las capturas</string>
+    <string name="notif_idle">Esperando una captura de pantalla</string>
+    <string name="notif_last">Copiada: %1$s</string>
+    <string name="notif_stop">Detener</string>
+</resources>

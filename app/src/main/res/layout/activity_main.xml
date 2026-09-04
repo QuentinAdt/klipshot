@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        android:paddingTop="32dp"
+        android:paddingBottom="48dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="?android:attr/textColorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/tagline"
+            android:textSize="15sp"
+            android:textColor="?android:attr/textColorSecondary" />
+
+        <!-- Interrupteur principal -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/card"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <Switch
+                android:id="@+id/sw_enabled"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/switch_enabled"
+                android:textSize="18sp"
+                android:textColor="?android:attr/textColorPrimary" />
+
+            <TextView
+                android:id="@+id/tv_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/status_off"
+                android:textSize="14sp"
+                android:textColor="?android:attr/textColorSecondary" />
+        </LinearLayout>
+
+        <!-- Autorisations -->
+        <TextView
+            style="@style/Section"
+            android:text="@string/section_permissions" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/RowTitle"
+                        android:text="@string/perm_media_title" />
+
+                    <TextView
+                        android:id="@+id/tv_perm_media"
+                        style="@style/RowState" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_perm_media"
+                    style="@style/RowButton"
+                    android:text="@string/action_grant" />
+            </LinearLayout>
+
+            <View style="@style/Divider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/RowTitle"
+                        android:text="@string/perm_notif_title" />
+
+                    <TextView
+                        android:id="@+id/tv_perm_notif"
+                        style="@style/RowState" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_perm_notif"
+                    style="@style/RowButton"
+                    android:text="@string/action_grant" />
+            </LinearLayout>
+
+            <View style="@style/Divider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/RowTitle"
+                        android:text="@string/perm_battery_title" />
+
+                    <TextView
+                        android:id="@+id/tv_perm_battery"
+                        style="@style/RowState" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_perm_battery"
+                    style="@style/RowButton"
+                    android:text="@string/action_grant" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Options -->
+        <TextView
+            style="@style/Section"
+            android:text="@string/section_options" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                style="@style/RowTitle"
+                android:text="@string/mode_title" />
+
+            <RadioGroup
+                android:id="@+id/rg_mode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rb_mediastore"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mode_mediastore"
+                    android:textColor="?android:attr/textColorPrimary" />
+
+                <RadioButton
+                    android:id="@+id/rb_local"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mode_local"
+                    android:textColor="?android:attr/textColorPrimary" />
+            </RadioGroup>
+
+            <View style="@style/Divider" />
+
+            <Switch
+                android:id="@+id/sw_toast"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/opt_toast"
+                android:textColor="?android:attr/textColorPrimary" />
+
+            <Switch
+                android:id="@+id/sw_vibrate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/opt_vibrate"
+                android:textColor="?android:attr/textColorPrimary" />
+        </LinearLayout>
+
+        <!-- Vérification -->
+        <TextView
+            style="@style/Section"
+            android:text="@string/section_test" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/btn_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/action_test" />
+
+            <Button
+                android:id="@+id/btn_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/action_check" />
+
+            <TextView
+                android:id="@+id/tv_clip"
+                style="@style/RowState"
+                android:layout_marginTop="12dp"
+                android:textIsSelectable="true" />
+
+            <ImageView
+                android:id="@+id/iv_preview"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginTop="12dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/action_check"
+                android:scaleType="fitCenter"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <!-- Journal -->
+        <TextView
+            style="@style/Section"
+            android:text="@string/section_log" />
+
+        <TextView
+            android:id="@+id/tv_log"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card"
+            android:fontFamily="monospace"
+            android:padding="20dp"
+            android:text="@string/log_empty"
+            android:textSize="12sp"
+            android:textColor="?android:attr/textColorSecondary"
+            android:textIsSelectable="true" />
+    </LinearLayout>
+</ScrollView>
