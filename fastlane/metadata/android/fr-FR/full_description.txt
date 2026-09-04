@@ -1,0 +1,21 @@
+Android prend une capture d'écran en un geste. La mettre dans le presse-papier en demande trois de plus : toucher l'aperçu, attendre l'éditeur, trouver son bouton de copie. Sur Pixel, l'aperçu ne propose jamais que Partager et Modifier.
+
+Klipshot supprime ces étapes. Tu gardes le geste système que tu utilises déjà. Dès qu'Android enregistre une capture, Klipshot la place dans le presse-papier. Capture, colle.
+
+CE QUE ÇA FAIT
+• Conserve le geste de capture natif, intact
+• Copie chaque nouvelle capture dans le presse-papier système, immédiatement
+• Vibration courte et message de confirmation, tous deux facultatifs
+• Un mode de repli pour les applications qui refusent de coller un fichier venu d'une autre app
+• Anglais, français, espagnol, allemand, italien
+
+CONFIDENTIALITÉ
+Klipshot n'a pas la permission Internet. L'application ne peut rien envoyer nulle part — ni statistiques, ni rapports d'erreur, ni tes captures. Aucun traceur, aucune publicité, aucune bibliothèque tierce. Le code est ouvert : github.com/QuentinAdt/klipshot
+
+POURQUOI L'ACCÈS AUX PHOTOS
+Lire la capture qu'Android vient d'enregistrer est toute la fonction de l'application. Sans accès à tes captures, Klipshot ne fait rien. Rien n'est envoyé, rien n'est analysé : l'identifiant de l'image va dans le presse-papier, et pas plus loin.
+
+BON À SAVOIR
+• Coller une image fonctionne dans les applications qui acceptent les images : mail, messagerie, documents. Un simple champ de texte n'en voudra pas.
+• L'accès aux photos doit être complet. « Sélectionner des photos » rend les nouvelles captures invisibles.
+• Nécessite Android 13 ou plus récent.

@@ -1,0 +1,21 @@
+Android macht einen Screenshot mit einer Geste. Ihn in die Zwischenablage zu bekommen kostet drei weitere: Vorschau antippen, auf den Editor warten, dessen Kopierschaltfläche suchen. Auf Pixel-Geräten bietet die Vorschau nur Teilen und Bearbeiten.
+
+Klipshot spart diese Schritte. Du behältst die Systemgeste, die du ohnehin benutzt. Sobald Android einen Screenshot speichert, legt Klipshot ihn in die Zwischenablage. Aufnehmen, einfügen.
+
+WAS ES TUT
+• Lässt die native Screenshot-Geste unangetastet
+• Kopiert jeden neuen Screenshot sofort in die Zwischenablage
+• Kurze Vibration und Bestätigungsmeldung, beides optional
+• Ein Ausweichmodus für Apps, die eine Mediendatei aus einer anderen App nicht einfügen wollen
+• Englisch, Französisch, Spanisch, Deutsch und Italienisch
+
+DATENSCHUTZ
+Klipshot hat keine Internetberechtigung. Die App kann nichts irgendwohin senden – keine Statistiken, keine Absturzberichte, keine Screenshots. Keine Tracker, keine Werbung, keine Fremdbibliotheken. Der Quellcode ist offen: github.com/QuentinAdt/klipshot
+
+WARUM FOTOZUGRIFF NÖTIG IST
+Den gerade gespeicherten Screenshot zu lesen ist die gesamte Funktion der App. Ohne Zugriff auf deine Screenshots tut Klipshot nichts. Nichts wird hochgeladen, nichts ausgewertet: Die Kennung des Bildes wandert in die Zwischenablage, weiter nicht.
+
+GUT ZU WISSEN
+• Ein Bild einfügen klappt in Apps, die Bilder annehmen: Mail, Messenger, Dokumente. Ein reines Textfeld nimmt keines an.
+• Der Fotozugriff muss vollständig sein. „Fotos auswählen“ verbirgt neue Screenshots vor der App.
+• Erfordert Android 13 oder neuer.

@@ -1,0 +1,21 @@
+Android hace una captura de pantalla con un gesto. Llevarla al portapapeles exige tres más: tocar la vista previa, esperar al editor y buscar su botón de copiar. En los Pixel, la vista previa solo ofrece Compartir y Editar.
+
+Klipshot elimina esos pasos. Conservas el gesto del sistema que ya usas. En cuanto Android guarda una captura, Klipshot la coloca en el portapapeles. Captura y pega.
+
+QUÉ HACE
+• Mantiene intacto el gesto de captura nativo
+• Copia cada captura nueva al portapapeles del sistema, al instante
+• Vibración breve y mensaje de confirmación, ambos opcionales
+• Un modo alternativo para las apps que se niegan a pegar un archivo de otra aplicación
+• Inglés, francés, español, alemán e italiano
+
+PRIVACIDAD
+Klipshot no tiene permiso de Internet. No puede enviar nada a ninguna parte: ni estadísticas, ni informes de errores, ni tus capturas. Sin rastreadores, sin publicidad, sin bibliotecas de terceros. El código es abierto: github.com/QuentinAdt/klipshot
+
+POR QUÉ NECESITA ACCESO A LAS FOTOS
+Leer la captura que Android acaba de guardar es toda la función de la aplicación. Sin acceso a tus capturas, Klipshot no hace nada. Nada se envía ni se analiza: el identificador de la imagen va al portapapeles y no más allá.
+
+CONVIENE SABER
+• Pegar una imagen funciona en las apps que aceptan imágenes: correo, mensajería, documentos. Un campo de texto simple no la aceptará.
+• El acceso a las fotos debe ser completo. «Seleccionar fotos» oculta las capturas nuevas.
+• Requiere Android 13 o posterior.

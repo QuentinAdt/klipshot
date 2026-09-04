@@ -1,0 +1,21 @@
+Android scatta uno screenshot con un gesto. Portarlo negli appunti ne richiede altri tre: toccare l'anteprima, aspettare l'editor, trovarne il pulsante di copia. Sui Pixel l'anteprima offre soltanto Condividi e Modifica.
+
+Klipshot elimina questi passaggi. Mantieni il gesto di sistema che già usi. Appena Android salva uno screenshot, Klipshot lo mette negli appunti. Scatta e incolla.
+
+COSA FA
+• Lascia intatto il gesto di cattura nativo
+• Copia ogni nuovo screenshot negli appunti di sistema, all'istante
+• Vibrazione breve e messaggio di conferma, entrambi facoltativi
+• Una modalità alternativa per le app che rifiutano di incollare un file proveniente da un'altra app
+• Inglese, francese, spagnolo, tedesco e italiano
+
+PRIVACY
+Klipshot non ha il permesso di accesso a Internet. Non può inviare nulla da nessuna parte: né statistiche, né segnalazioni di errore, né i tuoi screenshot. Nessun tracciamento, nessuna pubblicità, nessuna libreria di terze parti. Il codice è aperto: github.com/QuentinAdt/klipshot
+
+PERCHÉ SERVE L'ACCESSO ALLE FOTO
+Leggere lo screenshot appena salvato da Android è l'intera funzione dell'app. Senza accesso ai tuoi screenshot, Klipshot non fa nulla. Niente viene inviato né analizzato: l'identificatore dell'immagine finisce negli appunti, e nient'altro.
+
+DA SAPERE
+• Incollare un'immagine funziona nelle app che accettano immagini: posta, messaggistica, documenti. Un semplice campo di testo non la accetterà.
+• L'accesso alle foto deve essere completo. «Seleziona foto» nasconde all'app i nuovi screenshot.
+• Richiede Android 13 o successivo.

@@ -1,0 +1,21 @@
+Android takes a screenshot in one gesture. Putting that screenshot in the clipboard takes three more: tap the preview, wait for the markup editor, find its copy button. On Pixel phones the preview only ever offers Share and Edit.
+
+Klipshot removes those steps. You keep the system gesture you already use. The moment Android saves a screenshot, Klipshot puts it in the clipboard. Take the shot, paste it.
+
+WHAT IT DOES
+• Keeps the native screenshot gesture untouched
+• Copies every new screenshot to the system clipboard, instantly
+• Optional short vibration and confirmation message
+• A fallback mode for apps that refuse to paste a media URI from another app
+• English, French, Spanish, German and Italian
+
+PRIVACY
+Klipshot has no internet permission. It cannot send anything anywhere — not telemetry, not crash reports, not your screenshots. There are no analytics, no advertising and no third-party libraries of any kind. The app is open source: read every line at github.com/QuentinAdt/klipshot
+
+WHY IT NEEDS PHOTO ACCESS
+Reading the screenshot Android has just saved is the entire function of the app. Without access to your screenshots, Klipshot does nothing at all. Nothing is uploaded and nothing is analysed — the image identifier goes to the clipboard and no further.
+
+GOOD TO KNOW
+• Pasting an image works in apps that accept images: mail, messaging, documents. A plain text field will not take one.
+• Photo access must be granted in full. "Select photos" hides new screenshots from the app.
+• Requires Android 13 or newer.
