@@ -1,0 +1,29 @@
+# Metadonnees F-Droid pour Klipshot.
+#
+# Ce fichier n'appartient pas a ce depot : il doit etre depose dans
+# https://gitlab.com/fdroid/fdroiddata sous metadata/, via une merge request.
+# Il est conserve ici pour rester versionne avec le code qu'il decrit.
+
+Categories:
+  - System
+License: Apache-2.0
+AuthorName: Quentin Adt
+SourceCode: https://github.com/QuentinAdt/klipshot
+IssueTracker: https://github.com/QuentinAdt/klipshot/issues
+Changelog: https://github.com/QuentinAdt/klipshot/releases
+
+RepoType: git
+Repo: https://github.com/QuentinAdt/klipshot.git
+
+Builds:
+  - versionName: '1.0'
+    versionCode: 1
+    commit: v1.0
+    subdir: app
+    gradle:
+      - yes
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: '1.0'
+CurrentVersionCode: 1

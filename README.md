@@ -106,6 +106,13 @@ adb logcat -s Klipshot          # app log
 adb shell input keyevent 120    # fire a system screenshot
 ```
 
+## A note on signatures
+
+The APK published under Releases is signed with the author's key. Should Klipshot also land on
+F-Droid, that build is signed by F-Droid's own key instead. The two are not interchangeable:
+switching from one to the other requires uninstalling first, which clears the app's settings.
+Pick a source and stay with it.
+
 ## License
 
-[Apache License 2.0](LICENSE).
+[Apache License 2.0](LICENSE). Privacy policy: [PRIVACY.md](PRIVACY.md).
